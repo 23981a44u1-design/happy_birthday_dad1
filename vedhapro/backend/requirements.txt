@@ -161,3 +161,5 @@ zipp==3.23.0
 zope.event==6.1
 zope.interface==8.1.1
 zstandard==0.25.0
+Flask==3.0.0
+gunicorn==21.2.0
