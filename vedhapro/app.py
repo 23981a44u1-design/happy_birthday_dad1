@@ -8,11 +8,11 @@ app = Flask(
 
 @app.route("/")
 def home():
-    return render_template("w.html")
+    return render_template("index.html")
 
 @app.route("/wish")
 def wish_page():
-    return render_template("index.html")
+    return render_template("w.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
