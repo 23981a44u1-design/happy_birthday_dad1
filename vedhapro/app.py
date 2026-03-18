@@ -9,11 +9,11 @@ app = Flask(
 
 @app.route("/")
 def home():
-    return render_template("index.html")   # first page
+    return render_template("w.html")   # first page
 
 @app.route("/wish")
 def wish_page():
-    return render_template("s.html")   # second page
+    return render_template("index.html")   # second page
 
 if __name__ == "__main__":
     app.run(debug=True)
